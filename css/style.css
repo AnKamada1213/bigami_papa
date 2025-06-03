@@ -120,7 +120,6 @@ h3{
 .emphasis{
   font-weight: bold;
 }
-
 /*-------------------------------------------
 PagetopとLINEボタン
 -------------------------------------------*/
@@ -438,6 +437,7 @@ PagetopとLINEボタン
   font-size: 1.6rem;  
   margin-top: 32px;
   background: linear-gradient(transparent 60%, #eeee22 0%);
+  font-weight: bold;
 }
 
 .red{
@@ -572,7 +572,7 @@ PagetopとLINEボタン
 .staff-img{
   margin-top: 12px;
   width: 100%;
-  height: 200px;
+  height: 300px;
   text-align: center;
 }
 
@@ -939,6 +939,11 @@ SP
   padding: 10px;
 }
 
+/* SPでは非表示に */
+.pc-only {
+  display: none;
+  }
+
 #mainvisual-pc{
   display: none;
  }
@@ -976,6 +981,7 @@ h3{
 .wrapper{
   margin: 0px auto;
 }
+
 
 /*-------------------------------------------
 店舗
@@ -1043,9 +1049,32 @@ h3{
   font-size: 0.92rem;
 }
 
+.message-list li {
+  font-size: 0.92rem;
+}
+
+.message-text-list li {
+  font-size: 1rem;
+}
+
 .red{
   color: #b3003a; 
-  font-size: 1.4rem;    
+  font-size: 1rem;    
+}
+
+.top-text{
+  color: #b3003a; 
+  font-size: 1.2rem;
+  font-weight: bold; 
+  /* border-bottom: 2px #b3003a solid;  */
+}
+
+.bottom-text{
+  color: #b3003a; 
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 32px;
+  background: linear-gradient(transparent 60%, #eeee22 0%);
 }
 
 /*-------------------------------------------
@@ -1123,7 +1152,7 @@ page-topやline等
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 0;
+  z-index: 100;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   justify-content: space-around;
