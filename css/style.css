@@ -400,8 +400,8 @@ PagetopとLINEボタン
   margin-top: 32px;
   padding: 20px;         
   font-size: 1rem;       
-  background-color: #f9f1f1; 
-  border: 5px solid #b3003a;
+  background-color: #F2F5F9; 
+  border: 5px solid #001A59;
   border-radius: 8px;       
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -426,7 +426,7 @@ PagetopとLINEボタン
 }
 
 .top-text{
-  color: #b3003a; 
+  color: #001A59; 
   font-size: 1.6rem;  
   font-weight: bold; 
   /* border-bottom: 2px #b3003a solid;  */
@@ -952,7 +952,7 @@ SP
    display: block;
    object-fit: contain;
    width: 100%;
-   height: auto;
+   height: ;
    overflow: hidden;
  }
 
