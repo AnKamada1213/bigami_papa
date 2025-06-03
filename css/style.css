@@ -43,7 +43,7 @@ index.html
 
 #mainvisual-pc{
   width: 100%;
-  height: 100vh; 
+  height: auto; 
  }
  
  #mainvisual-sp{
@@ -54,7 +54,7 @@ index.html
    width: 100%;
    height: 100%;
    object-fit: cover;
-   vertical-align: bottom;
+   /* vertical-align: bottom; */
  }
 /*-------------------------------------------
 共通
